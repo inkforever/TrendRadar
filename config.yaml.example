@@ -1,0 +1,88 @@
+# ============================================================
+# TrendRadar Configuration — EXAMPLE
+# ============================================================
+# Copy this file to config.yaml and customize:
+#   cp config.yaml.example config.yaml
+#
+# config.yaml is gitignored — your personal profile stays local.
+
+# === Your Research Profile ===
+profile:
+  # Who you are (helps the briefing tailor its perspective)
+  identity: "CS grad student interested in HCI and game development"
+
+  # Your core research/interest areas (briefing covers all of these)
+  research_areas:
+    - "HCI (XR, VR, Human-AI Interaction)"
+    - "Game Design & Development"
+    - "AI Tools Landscape"
+
+  # Current focus (the briefing prioritizes content related to this)
+  current_focus: >
+    Describe your current project or research focus here.
+    Be specific — this drives relevance scoring for papers and activity.
+
+  # Keywords for relevance matching
+  keywords:
+    - "human-computer interaction"
+    - "game engine"
+    - "procedural generation"
+    - "LLM agents"
+    - "interaction design"
+
+  # Game taste (helps filter game-related signals)
+  game_interests:
+    - "indie games"
+    - "action"
+    - "puzzle"
+
+  # Weak areas you want to improve (briefing highlights these instead of filtering them out)
+  growth_areas:
+    - "visual design"
+    - "narrative design"
+
+  # AI tool categories to track
+  ai_tracking:
+    - "productivity tools (Claude Code, Cursor)"
+    - "media generation (image, music, video)"
+    - "code assistants (Copilot, Codex)"
+    - "automation (agents, workflows)"
+
+  language: "Chinese"  # Briefing output language: "Chinese" or "English"
+
+# === Tracked Leaders ===
+#
+# Fields:
+#   name:              Name (required)
+#   github:            GitHub username (optional)
+#   semantic_scholar:  Semantic Scholar Author ID (optional)
+#                      Find it: search semanticscholar.org, ID is in the author URL
+#   homepage:          Personal/lab homepage (optional, for reference)
+#   twitter:           Twitter handle (optional, for future use)
+#   youtube:           YouTube channel (optional, for future use)
+#   tags:              Research direction tags (required, used for trend aggregation)
+#   note:              Why you follow this person (optional, injected into briefing as bio)
+#
+# Tips:
+#   - Start with 15-25 leaders across your interest areas
+#   - At least some should have a `github` field (that's the primary data source)
+#   - Use /leader-scout skill to research and add new leaders
+#   - Order leaders within each category by activity level (most active first)
+
+leaders:
+
+  # --- Example Category ---
+
+  - name: "Example Person"
+    github: "example-username"
+    twitter: "@example"
+    homepage: "https://example.com"
+    tags: ["HCI", "interaction-design", "VR"]
+    note: "University X Professor, known for Y project, Z award"
+
+  # Add more leaders here. Recommended categories:
+  #   - Your core research field
+  #   - Adjacent fields you want to monitor
+  #   - Industry practitioners
+  #   - Tool builders
+  #   - Weak areas you want to strengthen

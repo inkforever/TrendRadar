@@ -1,0 +1,17 @@
+# Personal config (contains research profile & leader list)
+config.yaml
+
+# API keys
+.env
+
+# Generated data
+items.json
+prompt.md
+
+# Output artifacts
+output/
+papers/
+
+# Python
+__pycache__/
+*.pyc
