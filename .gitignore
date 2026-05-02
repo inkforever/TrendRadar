@@ -12,6 +12,11 @@ prompt.md
 output/
 papers/
 
+# Internal dev docs (for Claude Code context, not for public)
+CONTRIBUTING.md
+Outline.md
+PROGRESS.md
+
 # Python
 __pycache__/
 *.pyc
